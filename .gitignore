@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# Remotion render output (regenerable — stills, contact sheets, videos, prompt md)
+remotion/out/
+
+# build caches
+.cache/
+dist/
+
+# logs
+*.log
+npm-debug.log*
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
