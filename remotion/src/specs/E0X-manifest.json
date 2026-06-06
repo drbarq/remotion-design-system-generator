@@ -1,0 +1,53 @@
+{
+  "episodeId": "E0X",
+  "fps": 30,
+  "durationInFrames": 540,
+  "overlays": [
+    {
+      "type": "TitleCard",
+      "startFrame": 0,
+      "endFrame": 110,
+      "props": {
+        "eyebrow": "Chapter 01",
+        "title": "Stop Budgeting."
+      }
+    },
+    {
+      "type": "MediaFrame",
+      "startFrame": 110,
+      "endFrame": 230,
+      "concept": "a daily burn-rate breakdown as a clean bar chart of living costs over 24 hours",
+      "props": {
+        "src": "burn-rate.png",
+        "aspectRatio": "landscape"
+      }
+    },
+    {
+      "type": "KeyTermChip",
+      "startFrame": 230,
+      "endFrame": 360,
+      "props": {
+        "term": "Daily Burn Rate",
+        "definition": "The exact cost required for your existence over a 24 hour window."
+      }
+    },
+    {
+      "type": "TextOverlay",
+      "startFrame": 360,
+      "endFrame": 450,
+      "props": {
+        "text": "Treat your life like a data problem.",
+        "attribution": "The thesis"
+      }
+    },
+    {
+      "type": "StepBadge",
+      "startFrame": 450,
+      "endFrame": 540,
+      "props": {
+        "step": 1,
+        "label": "Measure the burn"
+      }
+    }
+  ]
+}
